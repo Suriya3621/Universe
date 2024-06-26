@@ -1,0 +1,42 @@
+print("Starting the program...");
+var x = 45;
+var test1 = "hii";
+var test = true;
+
+var num = range(1, 5, 1);
+print(num);
+
+function greet(name) {
+    print("Hello, mr." + name);
+}
+
+greet("Alice");
+
+function func(name) {
+    print("Hello, " + name);
+}
+
+var fun = func("Suriya");
+print(fun);
+
+if (test) {
+    print("It's working");
+} else {
+    print("It's not working");
+}
+
+var age1 = 17;
+print(typeof(x));
+var age = age1;
+
+if (age < 18) {
+    print("You are a minor.");
+} else if (age >= 18 && age <= 50){
+    print("You are an adult.");
+}
+else {
+    print("You are aged.");
+}
+
+
+print("End of the program.");
